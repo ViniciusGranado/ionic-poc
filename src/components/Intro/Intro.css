@@ -1,0 +1,32 @@
+.swiper {
+  height: 100vh;
+}
+
+.swiper-slide {
+  position: relative;
+}
+
+.swiper-slide img {
+  height: 100vh;
+  position: relative;
+}
+
+.swiper-slide ion-text {
+  display: block;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.swiper-slide h2 {
+  font-size: 4rem;
+}
+
+.swiper-slide ion-button {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
